@@ -5,8 +5,6 @@
 A Flask application template with the boilerplate code already done for you.
 
 
-**Documentation available at [http://hack4impact.github.io/flask-base](http://hack4impact.github.io/flask-base).**
-
 ## What's included?
 
 * Blueprints
@@ -48,8 +46,8 @@ Navigate to the [main project page](https://github.com/hack4impact/flask-base) a
 ##### Clone the repository 
 
 ```
-$ git clone https://github.com/YOUR_USERNAME/REPO_NAME.git
-$ cd REPO_NAME
+$ git clone https://github.com/nlooop/grant-flow-app.git
+$ cd grant-flow-app
 ```
 
 ##### Initialize a virtual environment
@@ -152,8 +150,6 @@ _Mac (using homebrew):_
 brew install postgresql
 ```
 
-_Linux (based on this [issue](https://github.com/hack4impact/flask-base/issues/96)):_
-
 ```
 sudo apt-get install libpq-dev
 ```
@@ -186,14 +182,12 @@ $ source env/bin/activate
 $ honcho start -e config.env -f Local
 ```
 
-For Windows users having issues with binding to a redis port locally, refer to [this issue](https://github.com/hack4impact/flask-base/issues/132).
-
 ## Gettin up and running with Docker and docker-compose:
 
 ##### Clone the repository 
 ```
-$ git clone https://github.com/YOUR_USERNAME/REPO_NAME.git
-$ cd REPO_NAME
+$ git clone https://github.com/nlooop/grant-flow-app.git
+$ cd grant-flow-app
 ```
 ##### Create and run the images:
 
